@@ -1,0 +1,20 @@
+
+-sources: ${def;bundlesources;true}
+
+# Let Gradle build to another directories, to avoid clashes with Eclipse build artifacts 
+
+bin: ${if;${driver;gradle};bin_gradle;bin}
+testbin: ${if;${driver;gradle};bin_test_gradle;bin_test}
+target-dir: ${if;${driver;gradle};generated_gradle;generated}
+osgi-compile-bundles: \
+	osgi.annotation;version=@6.0.1,\
+	osgi.core;version=@6.0.0,\
+	osgi.cmpn;version=@6.0.0,\
+	slf4j.api;version=@1.7.0
+
+# This forces JAX-RS 2.0; some bundles have problems with it...
+jaxrs-force-v2-package: javax.ws.rs.*;version='[2.0,3)'
+
+compile-only-cap: ${1}.compile.time.only;filter:="(&(must.not.resolve=*)(!(must.not.resolve=*)))"
+bundle-compile-only-cap: ${compile-only-cap;${bsn}}
+

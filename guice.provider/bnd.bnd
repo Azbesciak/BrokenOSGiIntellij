@@ -1,0 +1,28 @@
+Bundle-Version: 1.0.0.${tstamp}
+
+src: src, .apt_generated
+
+-buildpath: \
+	${osgi-compile-bundles},\
+	com.google.inject,\
+	com.google.inject.multibindings,\
+	com.google.inject.grapher,\
+	org.apache.servicemix.bundles.javax-inject,\
+	org.apache.servicemix.bundles.aopalliance,\
+
+
+Export-Package: \
+	javax.inject;provide:=true,\
+	org.aopalliance.intercept;provide:=true,\
+	org.aopalliance.aop;provide:=true,\
+	com.google.inject;provide:=true,\
+	com.google.inject.binder;provide:=true,\
+	com.google.inject.grapher;provide:=true,\
+	com.google.inject.grapher.graphviz;provide:=true,\
+	com.google.inject.matcher;provide:=true,\
+	com.google.inject.multibindings;provide:=true,\
+	com.google.inject.name;provide:=true,\
+	com.google.inject.spi;provide:=true
+Private-Package: \
+	com.google.inject.*,\
+	org.aopalliance.*,\

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="bnd:com.google.inject.grapher:4.1.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/inject/extensions/guice-grapher/4.1.0/guice-grapher-4.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

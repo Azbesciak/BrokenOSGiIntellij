@@ -1,0 +1,14 @@
+Bundle-Version: 1.0.0.${tstamp}
+
+Export-Package: project.main*
+
+-buildpath: \
+	${osgi-compile-bundles},\
+	guice.provider;version=latest,\
+	org.apache.felix.gogo.runtime;version=1.0
+
+-runrequires:  \
+	osgi.identity;filter:='(osgi.identity=project.main)'
+	
+-runbundles: \
+	${error;Resolve first}
