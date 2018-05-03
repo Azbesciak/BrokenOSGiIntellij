@@ -13,6 +13,7 @@ Shows that project ('minimal') which works fine in eclipse, does not in Intellij
 
 #### Update - Export imported bundles
 When some of your bundles export imported dependencies, their consumers don't see those dependencies. Some poor diagram:
+(Warn - does NOT import whole project again - just open existing project with plugin enabled)
 ![Import-Export error][ie-err]
 
 #### Intellij IDEA 2018.1.2
