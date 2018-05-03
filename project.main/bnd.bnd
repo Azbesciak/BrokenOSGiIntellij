@@ -5,7 +5,8 @@ Export-Package: project.main*
 -buildpath: \
 	${osgi-compile-bundles},\
 	guice.provider;version=latest,\
-	org.apache.felix.gogo.runtime;version=1.0
+	org.apache.felix.gogo.runtime;version=1.0,\
+	some.base;version=latest
 
 -runrequires:  \
 	osgi.identity;filter:='(osgi.identity=project.main)'

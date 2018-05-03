@@ -21,7 +21,9 @@
 	org.ops4j.pax.logging.pax-logging-api;version='[1.8.5,1.8.6)',\
 	org.ops4j.pax.logging.pax-logging-service;version='[1.8.5,1.8.6)',\
 	org.osgi.service.metatype;version='[1.3.0,1.3.1)',\
-	project.main;version=snapshot
+	project.main;version=snapshot,\
+	some.base;version=snapshot
+
 -runee: JavaSE-1.8
 -runfw: org.eclipse.osgi
 -resolve.effective: active

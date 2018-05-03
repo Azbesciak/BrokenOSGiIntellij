@@ -1,0 +1,22 @@
+Bundle-Version: 5.1.0.${tstamp}
+Bundle-Description: impl ..?
+
+Import-Package: \
+	some;provide:=true,\
+	*
+
+Export-Package: \
+	some;provide:=true,\
+	some.impl;provide:=true
+
+-buildpath: \
+	some.api;version=latest,\
+	${osgi-compile-bundles}
+
+
+-runrequires:  \
+	osgi.identity;filter:='(osgi.identity=uniopti.problem.base)'
+	
+-runbundles: \
+	org.apache.felix.log;version='[1.0.1,1.0.2)',\
+	some.base;version=snapshot

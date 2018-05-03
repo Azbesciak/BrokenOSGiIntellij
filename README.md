@@ -10,3 +10,17 @@ Shows that project ('minimal') which works fine in eclipse, does not in Intellij
 
 [intellij]: https://raw.githubusercontent.com/Azbesciak/BrokenOSGiIntellij/master/screenshots/intellij.png "Intellij fail"
 [eclipse]: https://raw.githubusercontent.com/Azbesciak/BrokenOSGiIntellij/master/screenshots/eclipse.png "Eclipse OK"
+
+#### Update - Export imported bundles
+When some of your bundles export imported dependencies, their consumers don't see those dependencies. Some poor diagram:
+![Import-Export error][ie-err]
+
+#### Intellij IDEA 2018.1.2
+ ![Intellij fail][intellij-ie]
+
+#### Eclipse Oxygen.3a March (4.7.3a)
+ ![Eclipse OK][eclipse-ie]
+
+[intellij-ie]: https://raw.githubusercontent.com/Azbesciak/BrokenOSGiIntellij/master/screenshots/intellij_import_export.png "Intellij fail"
+[eclipse-ie]: https://raw.githubusercontent.com/Azbesciak/BrokenOSGiIntellij/master/screenshots/eclipse_import_export.png "Eclipse OK"
+[ie-err]: https://raw.githubusercontent.com/Azbesciak/BrokenOSGiIntellij/master/screenshots/import_export_err.png "Eclipse OK"

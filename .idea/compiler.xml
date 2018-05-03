@@ -3,11 +3,9 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.8">
       <module name="guice.provider" target="1.8" />
-      <module name="guice.provider_main" target="1.8" />
-      <module name="guice.provider_test" target="1.8" />
       <module name="project.main" target="1.8" />
-      <module name="project.main_main" target="1.8" />
-      <module name="project.main_test" target="1.8" />
+      <module name="some.api" target="1.8" />
+      <module name="some.base" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

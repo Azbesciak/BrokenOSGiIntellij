@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BrokenOsgiIntellij.iml" filepath="$PROJECT_DIR$/BrokenOsgiIntellij.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" filepath="$PROJECT_DIR$/.idea/modules/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" group="RemoteSystemsTempFiles" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/build/build.iml" filepath="$PROJECT_DIR$/.idea/modules/build/build.iml" group="build" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cnf/cnf.iml" filepath="$PROJECT_DIR$/.idea/modules/cnf/cnf.iml" group="cnf" />
-      <module fileurl="file://$PROJECT_DIR$/guice.provider/guice.provider.iml" filepath="$PROJECT_DIR$/guice.provider/guice.provider.iml" group="guice.provider" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/guice.provider/guice.provider_main.iml" filepath="$PROJECT_DIR$/.idea/modules/guice.provider/guice.provider_main.iml" group="guice.provider" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/guice.provider/guice.provider_test.iml" filepath="$PROJECT_DIR$/.idea/modules/guice.provider/guice.provider_test.iml" group="guice.provider" />
-      <module fileurl="file://$PROJECT_DIR$/project.main/project.main.iml" filepath="$PROJECT_DIR$/project.main/project.main.iml" group="project.main" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project.main/project.main_main.iml" filepath="$PROJECT_DIR$/.idea/modules/project.main/project.main_main.iml" group="project.main" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project.main/project.main_test.iml" filepath="$PROJECT_DIR$/.idea/modules/project.main/project.main_test.iml" group="project.main" />
+      <module fileurl="file://$PROJECT_DIR$/BrokenOSGiIntellij.iml" filepath="$PROJECT_DIR$/BrokenOSGiIntellij.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guice.provider/guice.provider.iml" filepath="$PROJECT_DIR$/guice.provider/guice.provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project.main/project.main.iml" filepath="$PROJECT_DIR$/project.main/project.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/some.api/some.api.iml" filepath="$PROJECT_DIR$/some.api/some.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/some.base/some.base.iml" filepath="$PROJECT_DIR$/some.base/some.base.iml" />
     </modules>
   </component>
 </project>

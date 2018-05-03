@@ -1,0 +1,10 @@
+Bundle-Version: 4.0.1.${tstamp}
+Bundle-Description: Api
+	
+Export-Package:  \
+	some;provide:=true
+
+-buildpath: \
+	${osgi-compile-bundles}
+
+Require-Capability: ${bundle-compile-only-cap}

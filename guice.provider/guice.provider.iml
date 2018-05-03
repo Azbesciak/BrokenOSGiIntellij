@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":guice.provider" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" external.system.module.group="BrokenOsgiIntellij" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+<module type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="Osmorc" name="OSGi">
       <configuration manifestGenerationMode="Bnd" manifestLocation="" jarfileLocation="$MODULE_DIR$/generated/guice.provider.jar" outputPathType="SpecificOutputPath" bndFileLocation="bnd.bnd" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="" bundleVersion="1.0.0" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="true">
@@ -8,15 +8,26 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <output-test url="file://$MODULE_DIR$/bin_test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.apt_generated" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/generated" />
-      <excludeFolder url="file://$MODULE_DIR$/generated_gradle" />
-      <excludeFolder url="file://$MODULE_DIR$/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="bnd:osgi.annotation:6.0.1.201503162037" level="project" />
+    <orderEntry type="library" name="bnd:osgi.core:6.0.0.201403061837" level="project" />
+    <orderEntry type="library" name="bnd:osgi.cmpn:6.0.0.201505202027" level="project" />
+    <orderEntry type="library" name="bnd:slf4j.api:1.7.21" level="project" />
+    <orderEntry type="library" name="bnd:com.google.inject:4.1.0" level="project" />
+    <orderEntry type="library" name="bnd:com.google.inject.multibindings:4.1.0" level="project" />
+    <orderEntry type="library" name="bnd:com.google.inject.grapher:4.1.0" level="project" />
+    <orderEntry type="library" name="bnd:org.apache.servicemix.bundles.javax-inject:1.0.0.2" level="project" />
+    <orderEntry type="library" name="bnd:org.apache.servicemix.bundles.aopalliance:1.0.0.6" level="project" />
   </component>
 </module>
