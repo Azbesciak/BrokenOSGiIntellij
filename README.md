@@ -21,6 +21,6 @@ When some of your bundles export imported dependencies, their consumers don't se
 #### Eclipse Oxygen.3a March (4.7.3a)
  ![Eclipse OK][eclipse-ie]
 
-[intellij-ie]: https://raw.githubusercontent.com/Azbesciak/BrokenOSGiIntellij/master/screenshots/intellij_import_export.png "Intellij fail"
-[eclipse-ie]: https://raw.githubusercontent.com/Azbesciak/BrokenOSGiIntellij/master/screenshots/eclipse_import_export.png "Eclipse OK"
-[ie-err]: https://raw.githubusercontent.com/Azbesciak/BrokenOSGiIntellij/master/screenshots/import_export_err.png "Eclipse OK"
+[intellij-ie]: https://raw.githubusercontent.com/Azbesciak/BrokenOSGiIntellij/import-export/screenshots/intellij_import_export.png "Intellij fail"
+[eclipse-ie]: https://raw.githubusercontent.com/Azbesciak/BrokenOSGiIntellij/import-export/screenshots/eclipse_import_export.png "Eclipse OK"
+[ie-err]: https://raw.githubusercontent.com/Azbesciak/BrokenOSGiIntellij/import-export/screenshots/import_export_err.png "Eclipse OK"
